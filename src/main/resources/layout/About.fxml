@@ -23,7 +23,7 @@
             <Insets bottom="8.0" left="8.0" right="8.0" top="8.0"/>
         </padding>
     </Label>
-    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+    <!--<HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
         <VBox alignment="CENTER" prefHeight="200.0" prefWidth="200.0">
             <ImageView fitHeight="108.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true">
                 <Image url="@/image/alipay.jpg"/>
@@ -36,7 +36,7 @@
             </ImageView>
             <Label text="%ui.about.donate.weixinpay"/>
         </VBox>
-    </HBox>
+    </HBox>-->
     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
         <padding>
             <Insets bottom="8.0" top="8.0"/>
@@ -44,6 +44,6 @@
         <Label text="%ui.about.repo"/>
         <TextField editable="false" prefHeight="23.0" prefWidth="387.0"
                    style="-fx-border-color: transparent; -fx-background-color: transparent; -fx-text-fill: #4d66cc;"
-                   text="https://github.com/spawpaw/mybatis-generator-gui-extension"/>
+                   text="https://github.com/lerry903/mybatis-generator-gui-extension"/>
     </HBox>
 </VBox>

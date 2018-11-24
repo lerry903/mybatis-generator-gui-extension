@@ -57,7 +57,11 @@ public class ProjectConfig {
     @ExportToTab(tabName = SHORTCUT, index = 10)
     @ExportToTab(tabName = tabs.BASIC_SETTINGS, index = 1)
     @Config(bundle = "project.overwrite", type = ConfigType.CheckBox)
-    public SimpleBooleanProperty overwrite = new SimpleBooleanProperty(true);
+    public SimpleBooleanProperty overwrite = new SimpleBooleanProperty(false);
+    @ExportToTab(tabName = SHORTCUT, index = 10)
+    @ExportToTab(tabName = tabs.BASIC_SETTINGS, index = 1)
+    @Config(bundle = "project.isexample", type = ConfigType.CheckBox)
+    public SimpleBooleanProperty isExample = new SimpleBooleanProperty(true);
 
 
     /****DAO层配置******************************************************************************************************/
